@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8c1be131e2abd429eff8190db8a005, type: 3}
+  m_Name: StartingAdventure
+  m_EditorClassIdentifier: 
+  MainText: "You were born in a starless night. People like you are not entitled
+    to special birth conditions. The sky was cloudy and it was chilly, or so your
+    parents used to tell you. \n\nNever you thought it should be special. An ordinary
+    person shouldn't even celebrate a new year's cycle, flowers and animals don't,
+    why should you?\n\nBut this day you woke to something different. You don't remember
+    anymore. Blank mind. The place you wake in feels familiar but you don't know
+    why, how. As your mind fill with questions you go out and wander. \n\n<b>Any
+    answer to any question.</b>"
+  Options:
+  - OptionText: Head Out
+    OptionComposite:
+      OptionParameters:
+      - {fileID: 11400000, guid: 71152034cd6cac349a8c6c5be3c21384, type: 2}

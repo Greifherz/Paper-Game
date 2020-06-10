@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9987b99abc79bb41a905f6b243189a8, type: 3}
+  m_Name: FirstCombat
+  m_EditorClassIdentifier: 
+  CombatDescriptor:
+    Name: Suspicious Drunk
+    HitPoints: 5
+    ManaPoints: 0
+    Attack: 1
+    Defense: 0
+    WinOutcomeOption:
+      OptionParameters:
+      - {fileID: 11400000, guid: 71152034cd6cac349a8c6c5be3c21384, type: 2}
+    LoseOutcomeOption:
+      OptionParameters:
+      - {fileID: 11400000, guid: 71152034cd6cac349a8c6c5be3c21384, type: 2}
+    ExperienceReward: 50

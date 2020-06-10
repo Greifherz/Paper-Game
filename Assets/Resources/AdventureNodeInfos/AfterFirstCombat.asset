@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8c1be131e2abd429eff8190db8a005, type: 3}
+  m_Name: AfterFirstCombat
+  m_EditorClassIdentifier: 
+  MainText: 'The man falls on the ground unconscious. You can''t help but wonder
+    what befallen him.
+
+
+    As a crowd start to gather, you decide to leave before
+    any more trouble reaches you. The village you are in doesn''t seem big, only
+    dirt roads.
+
+
+    You are met by what seems to be the largest road on the town,
+    possibly crossing it through. You could follow it towards what seems to be the
+    center of the village or the other way, to the outskirts.'
+  Options:
+  - OptionText: Head towards village
+    OptionComposite:
+      OptionParameters:
+      - {fileID: 11400000, guid: edaaefa146b70fa4ba7f1bdbab3a8525, type: 2}
+  - OptionText: Head towards outskirts
+    OptionComposite:
+      OptionParameters:
+      - {fileID: 11400000, guid: edaaefa146b70fa4ba7f1bdbab3a8525, type: 2}
